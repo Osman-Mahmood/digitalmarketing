@@ -1,0 +1,27 @@
+.who{
+    
+    color: white;
+    
+}
+.title{
+    background: #8D1517;
+    padding: 0px 30px 3px 30px;
+    border-radius: 5px;
+}
+.team{
+    width: 270px;
+    height: 306px;
+}
+@media only screen and (max-width: 600px) {
+    .team{
+        width: 100%;
+        
+        background-position:center center;
+        background-repeat: no-repeat;
+    }
+}
+@media only screen and (max-width: 870px) {
+    /* .team{
+        width: 200px;
+    } */
+}

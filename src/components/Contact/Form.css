@@ -1,0 +1,32 @@
+
+.name{
+    width: 68%;
+    height: 47px;
+    margin-top: 15px;
+    border: 0;
+    outline: none;
+}
+textarea{
+    height: 100px !important;
+    border: 0;
+    outline: none;
+}
+.send{
+ margin-bottom: 15px;
+    background-color: #8D1517;
+    color: white;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+    border-radius: 63px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.bg{
+    background-color:#F5F5F5;
+}
+@media only screen and (max-width: 600px) {
+    .name{
+        width: 100%;
+    }
+}

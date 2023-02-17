@@ -1,0 +1,14 @@
+.ser{
+    border-bottom: 5px solid #E01F22;
+    border-radius: 2px;
+    width: 30px;
+}
+.new-card{
+    gap: 30px;
+    
+}
+.shadow{
+    box-shadow: 13px 11px rgba(0,0,0,.15)!important;
+    border-radius: 20px;
+    
+}

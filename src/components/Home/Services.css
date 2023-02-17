@@ -1,0 +1,20 @@
+.who{
+    
+    color: white;
+    
+}
+.title{
+    background: #8D1517;
+    padding: 0px 30px 3px 30px;
+    border-radius: 5px;
+}
+.service{
+    background-color: #8D1517;
+    width: 59px;
+    height: 53px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.whyus-card{
+    justify-content: center;
+}

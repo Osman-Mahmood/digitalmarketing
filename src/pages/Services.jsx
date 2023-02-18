@@ -5,7 +5,7 @@ import OurService from '../components/Services/OurService'
 const Services = () => {
   return (
     <div>
-      <HeroSection />
+      {/* <HeroSection /> */}
       <OurService />
     </div>
   )

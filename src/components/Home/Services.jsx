@@ -4,7 +4,7 @@ import service from '../../assets/service.png'
 const Services = () => {
   return (
     <div>
-      <h1 className='who text-center mt-5'><span className='title'>Our Services</span></h1>
+      <h1 className='who text-center mt-5' id='services'><span className='title'>Our Services</span></h1>
       <div class="d-flex whyus-card mt-5 text-center">
         <div class="card p-2 border-0 text-start">
             <div className='d-flex'>

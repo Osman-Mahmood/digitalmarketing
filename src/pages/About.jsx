@@ -5,8 +5,8 @@ import Team from '../components/Home/Team'
 const About = () => {
   return (
     <div>
-      <HeroSection />
-      <WeAre />
+      {/* <HeroSection id="about"/> */}
+      <WeAre/>
       <Team />
     </div>
   )

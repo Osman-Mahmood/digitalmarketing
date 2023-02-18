@@ -9,8 +9,8 @@
     border-radius: 5px;
 }
 .team{
-    width: 270px;
-    height: 306px;
+    width: 216px;
+    height: 155px;
 }
 @media only screen and (max-width: 600px) {
     .team{

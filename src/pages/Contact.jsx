@@ -5,7 +5,7 @@ import Form from '../components/Contact/Form'
 const Contact = () => {
   return (
     <div>
-      <HeroSection />
+      {/* <HeroSection /> */}
       <Form/>
     </div>
   )

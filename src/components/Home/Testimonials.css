@@ -3,6 +3,9 @@
     color: white;
     
 }
+
+
+
 .title{
     background: #8D1517;
     padding: 0px 30px 3px 30px;
@@ -11,11 +14,42 @@
 .background{
     background-color: #8D1517;
     border-radius: 10px;
+    width: 500px;
 }
 .test-font{
     font-size: 12px;
-    text-align: start;
 }
 .star{
     margin: 3px;
 }
+
+
+
+.swiper {
+    width: 100%;
+    height: 300px;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  } */
+  
+  @media only screen and (max-width: 600px) {
+.test-font{
+    width: 274px !important;
+}
+  }

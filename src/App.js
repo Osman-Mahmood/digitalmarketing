@@ -7,20 +7,26 @@ import Project from "./pages/Project";
 import Services from "./pages/Services";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
+import Main from "./pages/Main";
 function App() {
   return (
+    <div>
     <BrowserRouter>
     <Navbar />
-    <Routes>
+    {/* <Routes>
     <Route exact path="/" element={<Home />} />
-    <Route exact path="/about" element={<About />} />
-    <Route exact path="/services" element={<Services />} />
-    <Route exact path="/project" element={<Project />} />
-    <Route exact path="/contact" element={<Contact />} />
-    </Routes>
+    <Route exact path="#about" element={<About />} />
+    <Route exact path="#services" element={<Services />} />
+    <Route exact path="#project" element={<Project />} />
+    <Route exact path="#contact" element={<Contact />} />
+    </Routes> */}
+    <Main />
     <Footer />
     </BrowserRouter>
-   
+<>
+
+</>
+</div>
   );
 }
 

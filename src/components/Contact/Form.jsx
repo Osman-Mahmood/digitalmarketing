@@ -2,12 +2,12 @@ import React from 'react'
 import './Form.css'
 function Form() {
   return (
-    <div className='container bg'>
-    <div className='container fluid'>
+    <div className='container bg' >
+    <div className='container fluid' >
     
       <div className='row'>
-        <div className='col-md-6'>
-            <h3 className='text-bold mt-5'>WE'RE READY, LET'S TALK.</h3>
+        <div className='col-md-6' id="contact">
+            <h3 className='text-bold mt-5' >WE'RE READY, LET'S TALK.</h3>
             <input className='name' type="text" placeholder='Your Name' />
             <input className='name' type="text" placeholder='Email Address' />
             <textarea className='name' type="text" placeholder='Message' />

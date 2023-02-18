@@ -1,13 +1,27 @@
 
 .back{
-    background-image:linear-gradient(rgb(8 6 6 / 53%), rgb(7 5 5 / 97%)), url('../../assets/hero.jpg');
+    filter: blur(8px);
+    -webkit-filter: blur(3px);
     height: 500px;
     background-position: center center;
     background-repeat: no-repeat;
     object-fit: cover;
 }
 .main{
-    padding-top: 150px !important;
+    /* padding-top: 150px !important; */
+    position: relative;
+    top: -350px;
+}
+.second{
+    position: relative;
+    top: -350px;
+}
+/* .carousel-control-next, .carousel-control-prev{
+    top: -300px !important;
+} */
+.hero{
+    position: relative;
+    top: -350px;
 }
 .main::after {
     content: '';

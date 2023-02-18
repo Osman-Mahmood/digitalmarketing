@@ -5,9 +5,9 @@ import Vector2 from '../../assets/Vector1.png'
 import Vector3 from '../../assets/Vector3.png'
 const WeAre = () => {
   return (
-    <div className='container fluid'>
+    <div className='container fluid' >
         <div className='text-center'>
-      <h1 className='who text-center mt-5'><span className='title'>Who We Are</span></h1>
+      <h1 className='who text-center mt-5' id='about'><span className='title'>Who We Are</span></h1>
       <p className='mt-2'>AR is one of Pakistan’s fastest-growing IT companies, offering a diverse range of products/solutions and services to clients in a
 variety <br className='br'/> of industries around the world. It enables businesses through business analytics, reporting capabilities, and IT consulting, in
 <br className='br'/>addition to product development.s</p>

@@ -5,7 +5,7 @@ import MainSection from '../components/Projects/MainSection'
 const Project = () => {
   return (
     <div>
-      <HeroSection />
+      {/* <HeroSection /> */}
       <MainSection />
       <BottomSection />
     </div>
